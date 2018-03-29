@@ -13,18 +13,34 @@ Files
 - `colorbb.pl`  A perl filter, which colorizes `b2` output.
 - `colorbb`     A shell script, which combines `b2` and `colorbb.pl`
 
+Install
+-------
+
+Copy both scripts to location in your `$PATH`.
+
 Usage
 -----
 
-Type `colorbb` whenever you'd ordinarily type `b2`.
+Type `colorbb` whenever you'd ordinarily type `b2`:
+
+```console
+$ colorbb -j4 toolset=clang cxxflags="-std=c++11" variant=debug test
+```
 
 Author
 ------
 
 Mateusz Loskot, http://mateusz.loskot.net/.
 
+Credits
+-------
+
+Bjarni R. Einarsson for [colormake](http://bre.klaki.net/programs/colormake/).
+
 License
 -------
+
+(inherited from colormake)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
