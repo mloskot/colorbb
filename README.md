@@ -2,10 +2,12 @@ colorbb
 -------
 
 This is a simple wrapper written in Perl for making the output from
-`b2` command from Boost.Build easier to read (more colorful),
-and errors easier to find in messy compilations.
+`b2` command from [Boost.Build](http://http://www.boost.org/build/)
+easier to read (more colorful), and errors easier to find
+in messy compilations.
 
-Port of [colormake](http://bre.klaki.net/programs/colormake/) by Bjarni R. Einarsson.
+Port of [colormake](http://bre.klaki.net/programs/colormake/)
+by Bjarni R. Einarsson.
 
 Files
 -----
@@ -35,7 +37,8 @@ Mateusz Loskot, http://mateusz.loskot.net/.
 Credits
 -------
 
-Bjarni R. Einarsson for [colormake](http://bre.klaki.net/programs/colormake/).
+Bjarni R. Einarsson for
+[colormake](http://bre.klaki.net/programs/colormake/).
 
 License
 -------

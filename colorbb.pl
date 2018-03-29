@@ -2,7 +2,7 @@
 #
 # colorbb.pl 0.2
 #
-# Copyright: (C) 2009, Mateusz Loskot <mateusz@loskot.net>
+# Copyright: (C) 2009-2018, Mateusz Loskot <mateusz@loskot.net>
 #
 # colorbb is based on colormake 0.3 written by Bjarni R. Einarsson.
 #

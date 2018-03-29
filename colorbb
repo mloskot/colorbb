@@ -1,4 +1,9 @@
 #!/bin/bash
+#!/usr/bin/perl
+#
+# colorbb 0.2
+#
+# Copyright: (C) 2009-2018, Mateusz Loskot <mateusz@loskot.net>
 b2colorizer="$(dirname $(realpath $0))/colorbb.pl"
 b2 "$@" 2>&1 | perl $b2colorizer
 exit ${PIPESTATUS[0]}
