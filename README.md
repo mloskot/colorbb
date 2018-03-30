@@ -9,7 +9,9 @@ in messy compilations.
 Port of [colormake](http://bre.klaki.net/programs/colormake/)
 by Bjarni R. Einarsson.
 
-![screenshot](screenshot.png "colorbb in action")
+![screenshot](https://user-images.githubusercontent.com/80741/38137483-206a3034-3425-11e8-872c-4f95dd948df5.png "colorbb in action")
+
+
 
 Files
 -----
