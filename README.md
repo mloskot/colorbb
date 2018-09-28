@@ -4,7 +4,8 @@ colorbb
 This is a simple wrapper written in Perl for making the output from
 `b2` command from [Boost.Build](http://http://www.boost.org/build/)
 easier to read (more colorful), and errors easier to find
-in messy compilations.
+in messy compilations. Initially discussed as part of Boost trac ticket
+[#3508 - bjam output in colours](https://svn.boost.org/trac10/ticket/3508).
 
 Port of [colormake](http://bre.klaki.net/programs/colormake/)
 by Bjarni R. Einarsson.
