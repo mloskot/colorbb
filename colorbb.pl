@@ -100,7 +100,7 @@ while (<>)
     elsif ($in eq 'compile')
     {
         # Do interesting things if make is compiling something.
-        if (($thisline !~ /[,:]$/) && ($thisline !~ /warning/) && ($thisline !~ /note/) && ($thisline !~ /require/))
+        if (($thisline !~ /[,:]$/) && ($thisline !~ /warning/) && ($thisline !~ /note/) && ($thisline !~ /require/) && ($thisline !~ /skipping/))
         {
             $thisline =~ s/(\d+:\s+)/$1$col_default$col_error/;
             $thisline = $error_highlight . $thisline . $col_norm;
@@ -138,17 +138,3 @@ while (<>)
 }
 
 print $col_norm;
-
-# UNUSED:
-#
-#%colors = (
-#    'black'     => "\033[30m",
-#    'red'       => "\033[31m",
-#    'green'     => "\033[32m",
-#    'yellow'    => "\033[33m",
-#    'blue'      => "\033[34m",
-#    'magenta'   => "\033[35m",
-#    'purple'    => "\033[35m",
-#    'cyan'      => "\033[36m",
-#    'white'     => "\033[37m",
-#    'darkgray'  => "\033[30m");
